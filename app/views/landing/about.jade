@@ -1,0 +1,15 @@
+extends ../layouts/static
+
+block content
+
+  include components/nav
+
+  include components/hero
+  +hero('about')
+
+  section.how-it-works
+    .container
+      h2.video-heading What is Blah?
+      p.big Blah
+
+  include components/footer
